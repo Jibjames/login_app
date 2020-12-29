@@ -1,5 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react'
+/*
+
+*/
+
+
+function WelcomeMessage({myprops}) {
+  return <p>Welcome!</p>
+}
 
 function App() {
   return (
@@ -9,6 +18,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+
+        <WelcomeMessage myprop={'somevalue'} />
+
         <a
           className="App-link"
           href="https://reactjs.org"
