@@ -7,7 +7,7 @@ import React, { useState } from 'react'
 
 
 function WelcomeMessage({myprops}) {
-  return <p>Welcome!</p>
+  return <p>Howdy!</p>
 }
 
 function App() {
